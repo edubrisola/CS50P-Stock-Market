@@ -1,0 +1,8 @@
+prettytable
+input
+yfinance
+hashlib
+random
+cs50
+datetime
+shares
