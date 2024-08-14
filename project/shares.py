@@ -165,7 +165,7 @@ def sell_stocks(db, user):
         # Get Input Stock
         answer = input("What Stock? ").strip()
 
-        if answer.isalpha():
+        if not answer.isnumeric():
             print()
             break
         else:
